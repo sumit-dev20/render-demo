@@ -8,10 +8,9 @@ from nltk.stem import WordNetLemmatizer
 import pandas as pd
 import altair as alt
 
-# nltk.download('punkt')
-# nltk.download('stopwords')
-# nltk.download('wordnet')
-nltk.download('all')
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
